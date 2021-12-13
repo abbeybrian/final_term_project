@@ -12,3 +12,12 @@ I use the Olivetti faces dataset. This dataset contains a set of face images tak
 Linear discriminant analysis (LDA), normal discriminant analysis (NDA), or discriminant function analysis is a generalization of Fisher's linear discriminant, a method used in statistics and other fields, **to find a linear combination of features that characterizes or separates two or more classes of objects or events**.
 
 -----
+### Hyperparameter explanation
+There are some hyperparamters to tune for the best model. I tune 'solver' which is one of the hyperparameters of the Linear Discriminant Analysis. I use GridSearchCV in sklearn.model_selection to choose the best hyperparameter, and finally choose to use 'svd' for 'solver'. There are other hyperparameters except for the 'solver', however, I could find out that they do not affect the accuracy of the model at all. Therefore, I didn't include them in the code.
+solver : {‘svd’, ‘lsqr’, ‘eigen’}, default=’svd’
+    -'svd'  : Singular value decomposition
+    -'lsqr' : Least squares solution
+    -'eigen': Igenvalue decomposition
+
+-----
+### 
