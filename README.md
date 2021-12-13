@@ -25,7 +25,7 @@ There are some hyperparamters to tune for the best model. I tune 'solver' which 
 
 -----
 ### License
-Distributed under the MIT License. See LICENSE.txt for more information.
+Distributed under the MIT License. See  LICENSE.txt for more information.
 
 -----
 ### Contact
