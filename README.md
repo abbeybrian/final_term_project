@@ -17,11 +17,11 @@ There are some hyperparamters to tune for the best model. I tune 'solver' which 
 
 solver : {‘svd’, ‘lsqr’, ‘eigen’}, default=’svd’
 
-    -'svd'  : Singular value decomposition
+-'svd'  : Singular value decomposition
     
-    -'lsqr' : Least squares solution
+-'lsqr' : Least squares solution
     
-    -'eigen': Igenvalue decomposition
+-'eigen': Igenvalue decomposition
 
 -----
 ### 
