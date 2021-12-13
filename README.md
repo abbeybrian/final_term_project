@@ -15,13 +15,13 @@ Linear discriminant analysis (LDA), normal discriminant analysis (NDA), or discr
 ### Hyperparameter explanation
 There are some hyperparamters to tune for the best model. I tune 'solver' which is one of the hyperparameters of the Linear Discriminant Analysis. I use GridSearchCV in sklearn.model_selection to choose the best hyperparameter, and finally choose to use 'svd' for 'solver'. There are other hyperparameters except for the 'solver', however, I could find out that they do not affect the accuracy of the model at all. Therefore, I didn't include them in the code.
 
-solver : {‘svd’, ‘lsqr’, ‘eigen’}, default=’svd’
+    solver : {‘svd’, ‘lsqr’, ‘eigen’}, default=’svd’
 
--'svd'  : Singular value decomposition
+    -'svd'  : Singular value decomposition
     
--'lsqr' : Least squares solution
+    -'lsqr' : Least squares solution
     
--'eigen': Igenvalue decomposition
+    -'eigen': Igenvalue decomposition
 
 -----
 ### 
