@@ -31,5 +31,4 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 ### Contact
 E-mail : abbeybrian@cau.ac.kr
 
------
-### Acknowledgements
+
